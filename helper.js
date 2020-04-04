@@ -1,10 +1,10 @@
-import { pieces, rows, columns } from './constants.js';
+import { pieces, rows, columns } from './Constants.js';
 
 export const getPieceName = (inputString) => inputString.split(" ")[0]; 
 
 export const getRowPosition = (inputString) => inputString.split(" ")[1][0];
 
-export const getColPosition = (inputString) => inputString.split(" ")[1][1];
+export const getColPosition = (inputString) => parseInt(inputString.split(" ")[1][1], 10);;
 
 export const isValidInput = (inputString) => {
     const inputParts = inputString.split(" ");

@@ -11,3 +11,13 @@ export const rowNumbers = {
     G: 7,
     H: 8
 };
+export const rowLetters = {
+    1: 'A',
+    2: 'B',
+    3: 'C',
+    4: 'D',
+    5: 'E',
+    6: 'F',
+    7: 'G',
+    8: 'H'
+};
