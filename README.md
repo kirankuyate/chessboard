@@ -1,4 +1,6 @@
-# chessboard
+# Chessboard
+
+#### Find possible cells in which the chess piece can move on empty chessboard
 
 ## Packages
 
