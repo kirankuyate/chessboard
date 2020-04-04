@@ -1,4 +1,4 @@
-import { pieces, rows, columns } from './Constants.js';
+import { pieces, rows, columns } from './constants.js';
 
 export const getPieceName = (inputString) => inputString.split(" ")[0]; 
 

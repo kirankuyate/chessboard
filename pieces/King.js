@@ -1,4 +1,4 @@
-import { rowNumbers, rowLetters } from '../Constants.js'
+import { rowNumbers, rowLetters } from '../constants.js'
 
 export const getValidMovesForKing = (rowPosition, colPosition) => {
     const row = rowNumbers[rowPosition];
