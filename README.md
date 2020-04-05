@@ -10,3 +10,9 @@ Read user input
 Tests
 - `mocha`
 - `chai`
+
+## Running app
+- `npm start`
+
+## Running tests
+- `npm test`
